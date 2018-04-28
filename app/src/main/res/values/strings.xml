@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuizApp - Amazing City</string>
+    <string name="moscow">Moscow</string>
+    <string name="new_york">New York</string>
+    <string name="singapore">Singapore</string>
+    <string name="mainQuestion">Try to Guess which cities are shown below?</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="london">London</string>
+    <string name="hong_kong">Hong Kong</string>
+    <string name="notAllToast">Please answer all questions!</string>
+    <string name="correctToast">All answers are correct! Congratulations!</string>
+    <string name="yourScore">Your score:</string>
+    <string name="tryAgain">Try again!</string>
+    <string name="editText_hint">Plese input city name here</string>
+    <string name="min_poulation_question">Which one of these cities has minimal population?</string>
+    <string name="max_population_question">Which city has more than 10M population?</string>
+</resources>

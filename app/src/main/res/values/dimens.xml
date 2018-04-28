@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panoHeight">96dp</dimen>
+    <dimen name="questTopMargin">15dp</dimen>
+    <dimen name="quesTextSize">18sp</dimen>
+    <dimen name="cityPicMargin">15dp</dimen>
+    <dimen name="cityPicHeight">200dp</dimen>
+    <dimen name="radioButtonSideMargin">20dp</dimen>
+    <dimen name="scrollBarSize">2dp</dimen>
+    <dimen name="radioTextSize">15sp</dimen>
+    <dimen name="checkBoxMarginLeftRight">40dp</dimen>
+    <dimen name="checkBoxMarginTop">10dp</dimen>
+</resources>

@@ -1,0 +1,239 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:scrollbarSize="@dimen/scrollBarSize"
+    android:scrollbarThumbVertical="@color/colorAccent"
+    android:verticalScrollbarPosition="right"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panoHeight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/city" />
+
+        <TextView
+            style="@style/Question"
+            android:text="@string/max_population_question" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/checkBoxMarginLeftRight"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_question1_singapore"
+                style="@style/CheckBox"
+                android:text="@string/singapore" />
+
+            <CheckBox
+                android:id="@+id/cb_question1_tokyo"
+                style="@style/CheckBox"
+                android:text="@string/tokyo" />
+
+            <CheckBox
+                android:id="@+id/cb_question1_hongkong"
+                style="@style/CheckBox"
+                android:text="@string/hong_kong" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/checkBoxMarginLeftRight"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_question1_moscow"
+                style="@style/CheckBox"
+                android:text="@string/moscow" />
+
+            <CheckBox
+                android:id="@+id/cb_question1_newyork"
+                style="@style/CheckBox"
+                android:text="@string/new_york" />
+
+            <CheckBox
+                android:id="@+id/cb_question1_london"
+                style="@style/CheckBox"
+                android:text="@string/london" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Question"
+            android:text="@string/min_poulation_question" />
+
+        <EditText
+            android:id="@+id/et_question2_min_population_answer"
+            style="@style/EditText" />
+
+        <TextView
+            style="@style/Question"
+            android:text="@string/mainQuestion" />
+
+        <!--New York-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/ny" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question3_moscow"
+                style="@style/RadioButton"
+                android:text="@string/moscow" />
+
+            <RadioButton
+                android:id="@+id/rb_question3_newyork"
+                style="@style/RadioButtonCenter"
+                android:text="@string/new_york" />
+
+            <RadioButton
+                android:id="@+id/rb_question3_singapore"
+                style="@style/RadioButton"
+                android:text="@string/singapore" />
+        </RadioGroup>
+
+        <!--Singapore-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/sing" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question4_singapore"
+                style="@style/RadioButton"
+                android:text="@string/singapore" />
+
+            <RadioButton
+                android:id="@+id/rb_question4_tokyo"
+                style="@style/RadioButtonCenter"
+                android:text="@string/tokyo" />
+
+            <RadioButton
+                android:id="@+id/rb_question4_london"
+                style="@style/RadioButton"
+                android:text="@string/london" />
+        </RadioGroup>
+
+        <!--Moscow-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/moscow" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question5_hongkong"
+                style="@style/RadioButton"
+                android:text="@string/hong_kong" />
+
+            <RadioButton
+                android:id="@+id/rb_question5_newyork"
+                style="@style/RadioButtonCenter"
+                android:text="@string/new_york" />
+
+            <RadioButton
+                android:id="@+id/rb_question5_moscow"
+                style="@style/RadioButton"
+                android:text="@string/moscow" />
+        </RadioGroup>
+
+
+        <!--London-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/london" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question6_singapore"
+                style="@style/RadioButton"
+                android:text="@string/singapore" />
+
+            <RadioButton
+                android:id="@+id/rb_question6_london"
+                style="@style/RadioButtonCenter"
+                android:text="@string/london" />
+
+            <RadioButton
+                android:id="@+id/rb_question6_tokyo"
+                style="@style/RadioButton"
+                android:text="@string/tokyo" />
+        </RadioGroup>
+
+        <!--Hong Kong-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/hk" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question7_moscow"
+                style="@style/RadioButton"
+                android:text="@string/moscow" />
+
+            <RadioButton
+                android:id="@+id/rb_question7_hongkong"
+                style="@style/RadioButtonCenter"
+                android:text="@string/hong_kong" />
+
+            <RadioButton
+                android:id="@+id/rb_question7_london"
+                style="@style/RadioButton"
+                android:text="@string/london" />
+        </RadioGroup>
+
+        <!--Tokyo-->
+
+        <ImageView
+            style="@style/CityPic"
+            android:src="@drawable/tokyo" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/rb_question8_tokyo"
+                style="@style/RadioButton"
+                android:text="@string/tokyo" />
+
+            <RadioButton
+                android:id="@+id/rb_question8_newyork"
+                style="@style/RadioButtonCenter"
+                android:text="@string/new_york" />
+
+            <RadioButton
+                android:id="@+id/rb_question8_singapore"
+                style="@style/RadioButton"
+                android:text="@string/singapore" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/radioButtonSideMargin"
+            android:background="@drawable/mybutton"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>
